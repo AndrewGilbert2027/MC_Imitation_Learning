@@ -31,15 +31,15 @@ I would personally recommend using pyenv for this project as it allows easy swit
 ## Usage
 
 ### 1. Recording Gameplay Data
-To record gameplay data, navigate to the `vpt` directory and run:
+To record gameplay data, navigate to the `recorder` directory and run:
 ```bash
-cd vpt
+cd recorder
 python main.py
 ```
 This will:
 - Launch Minecraft with MineRL
 - Record gameplay frames and actions
-- Save data to `vpt/data/labeller-training/`
+- Save data to `recorder/data/labeller-training/`
 
 ### 2. Training the Model
 To train the model on recorded data, from the root directory run:

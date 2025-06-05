@@ -1,0 +1,5 @@
+venv
+logs
+data/downloaded_videos
+data/labeller-training/*.mp4
+data/labeller-training/*.json
